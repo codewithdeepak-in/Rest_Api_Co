@@ -1,0 +1,58 @@
+<!-- Server Side Dependencies.  -->
+
+        "bcrypt": "^5.1.1", // used for hashing.
+        "body-parser": "^1.20.2", // used to extact data from the request.
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2", // server framework.
+        "express-mongo-sanitize": "^2.2.0",
+        "express-validator": "^7.0.1",
+        "http-status": "^1.6.2",
+        "jsonwebtoken": "^9.0.2",
+        "mailgen": "^2.0.27",
+        "mongoose": "^7.5.0",
+        "mongoose-aggregate-paginate-v2": "^1.0.6",
+        "nodemailer": "^6.9.4",
+        "validator": "^13.11.0",
+        "xss-clean": "^0.1.4" // cross site scripting ko prevent krne ke liye.
+
+        bcrypt:
+        Purpose: Used for hashing passwords and sensitive data. It helps securely store and compare passwords in your application.
+        body-parser:
+
+        Purpose: Middleware for Express.js. It parses incoming request bodies and makes the data available in a more accessible format, such as JSON or URL-encoded data. It's commonly used to extract data from POST requests.
+        dotenv:
+
+        Purpose: Allows you to load environment variables from a .env file into your Node.js application. It's used to store configuration and sensitive information like API keys, database URLs, or other environment-specific data.
+        express:
+
+        Purpose: A popular web application framework for Node.js. It simplifies the process of building web applications by providing features like routing, middleware, and request handling.
+        express-mongo-sanitize:
+
+        Purpose: Middleware for Express.js. It helps prevent NoSQL Injection attacks by sanitizing user-supplied data before passing it to MongoDB. It removes any keys that have $ or . characters to protect against malicious queries.
+        express-validator:
+
+        Purpose: Middleware for Express.js that provides a set of validation and sanitization functions for user input data. It helps validate and sanitize data in your application's routes, ensuring data integrity and security.
+        http-status:
+
+        Purpose: A utility library that provides human-readable status code descriptions. It makes it easier to work with HTTP status codes in your Express application, improving code readability.
+        jsonwebtoken:
+
+        Purpose: Used for creating and verifying JSON Web Tokens (JWTs). JWTs are commonly used for authentication and authorization in web applications.
+        mailgen:
+
+        Purpose: A library for generating responsive HTML email templates. It's useful for creating and sending well-formatted transactional emails from your application.
+        mongoose:
+
+        Purpose: A popular MongoDB object modeling tool for Node.js. It simplifies working with MongoDB databases by providing a schema-based approach for defining models and handling database operations.
+        mongoose-aggregate-paginate-v2:
+
+        Purpose: An extension for Mongoose that enhances its query capabilities. It provides pagination support for Mongoose aggregate queries.
+        nodemailer:
+
+        Purpose: A Node.js library for sending email. It's commonly used to send transactional and notification emails from your application.
+        validator:
+
+        Purpose: A library for data validation and sanitization. It provides functions for validating data such as email addresses, URLs, and more. It helps ensure the integrity and security of user-provided data.
+        xss-clean:
+
+        Purpose: Middleware for Express.js that helps prevent Cross-Site Scripting (XSS) attacks by sanitizing user input and removing potentially dangerous content from HTML. It enhances the security of your web application.

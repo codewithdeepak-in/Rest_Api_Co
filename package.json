@@ -1,7 +1,7 @@
 {
   "name": "project_1",
   "version": "1.0.0",
-  "description": "Here I complete learn about how mern technology works.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
